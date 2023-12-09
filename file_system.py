@@ -250,7 +250,6 @@ if __name__ == '__main__':
     TOUCH = "touch"
     RM = "rm"
     LOCATE = "locate"
-    #DICTIONARY SYSTEM. The examples in the directions just confused me, so I started with just this and by the time I finished it still worked, so. 
 
     file_system = {
         "/": []
@@ -262,7 +261,6 @@ if __name__ == '__main__':
     #just the thing that comes before each line
     prompt = "[user@linux]$ "
 
-    #THE LOOP (SCARY)
     run = True
     while run:
 
